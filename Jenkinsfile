@@ -15,7 +15,7 @@ pipeline
                 
                 
                 echo 'Build App'
-                 git 'https://github.com/rcoder23/SpringBoot-Devops'
+                 git  'https://github.com/rcoder23/SpringBoot-Devops.git'
                   bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
